@@ -4,7 +4,6 @@ import json
 import logging
 import random
 import traceback
-
 import requests
 from bs4 import BeautifulSoup
 
@@ -14,6 +13,7 @@ handler=logging.FileHandler("log.txt") # 创建日志文件
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')# 设置日志的打印格式
 handler.setFormatter(formatter) #
 logger.addHandler(handler)
+
 
 def find_all_movies():
     movies_date = {}
