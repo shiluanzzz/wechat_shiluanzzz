@@ -1,6 +1,0 @@
-2019-04-15 13:18:45,416 - __main__ - INFO - test³É¹¦£¡
-2019-04-15 13:25:04,037 - __main__ - INFO - Traceback (most recent call last):
-  File "F:/PyProject/wechat_shiluanzzz/main.py", line 43, in index
-    mysignature = hashlib.sha1(temp).hexdigest()
-TypeError: Unicode-objects must be encoded before hashing
-
